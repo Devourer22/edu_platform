@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 
 
+
 def parsing(url):
     browser = webdriver.Chrome()
     browser.get(url)
